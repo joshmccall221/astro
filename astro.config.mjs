@@ -5,7 +5,10 @@ import sitemap from "@astrojs/sitemap";
 import icon from "astro-icon";
 
 // https://astro.build/config
+import { defineConfig } from 'astro/config'
+
 export default defineConfig({
-  site: "https://joshmccall221.github.io/astro/",
+  site: 'https://astronaut.github.io',
+  base: 'astro',
   integrations: [tailwind(), mdx(), sitemap(), icon()],
-});
+})
