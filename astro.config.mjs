@@ -8,7 +8,7 @@ import icon from "astro-icon";
 import { defineConfig } from 'astro/config'
 
 export default defineConfig({
-  site: 'https://astronaut.github.io',
+  site: 'https://joshmccall221.github.io',
   base: 'astro',
   integrations: [tailwind(), mdx(), sitemap(), icon()],
 })
