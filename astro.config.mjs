@@ -9,6 +9,6 @@ import { defineConfig } from 'astro/config'
 
 export default defineConfig({
   site: 'https://joshmccall221.github.io',
-  // base: 'astro',
+  base: '/',
   integrations: [tailwind(), mdx(), sitemap(), icon()],
 })
